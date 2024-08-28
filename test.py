@@ -78,6 +78,9 @@ if __name__ == "__main__":
     # 모델 테스트
     accuracy, predictions, labels = test_model(model, device, test_loader)
     
+    # 총 정확도 출력
+    print(f"전체 테스트 데이터셋 정확도: {accuracy:.2f}%")
+    
     # 폭우 및 폭설에 대한 정확도 평가
     class_names = ['폭우', '폭설']  # 클래스 이름 지정 (0: 폭우, 1: 폭설)
     evaluate_accuracy(predictions, labels, class_names)
