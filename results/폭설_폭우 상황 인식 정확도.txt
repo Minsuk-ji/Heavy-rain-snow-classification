@@ -1,0 +1,12 @@
+Overall Accuracy: 89.11%
+Average Inference Time: 0.0200 seconds per image
+
+Class: heavy_rain
+  - Accuracy: 87.00%
+
+Class: heavy_snow
+  - Accuracy: 87.30%
+
+Class: normal
+  - Accuracy: 93.50%
+
